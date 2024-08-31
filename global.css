@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+  
+  
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6, legend, label {
+    color: #ffffff;
+}
+
+p {
+    color: #ffffff;
+}
+b{
+    color: #fffdfd;
+}
+
+a {
+    text-decoration: none;
+}
+
+button,
+input,
+textarea,
+a {
+    border: 0;
+    outline: none;
+}
+button:hover {
+    filter: brightness(0.75);
+}

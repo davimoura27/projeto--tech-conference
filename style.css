@@ -1,0 +1,676 @@
+/* .container{
+   max-width: 2400px;
+   margin: 0 auto;
+   
+  
+}
+.design{
+    background-image: url(./tech\ conferencia6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -5rem;
+   
+
+}
+.cabeçalho {
+    
+    
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 3rem;
+    height: 6rem;
+}
+.navbar {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(3px);
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-left: 50rem;
+    margin-top: 0.5rem;
+   
+}
+
+
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 7rem;
+    
+    padding: 20px;
+    
+}
+
+.menu a {
+    color: aliceblue;
+
+
+}
+.banner{
+    background-image: url(./tech\ conferencia.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70rem;
+    font-size: 7rem;
+    padding-top: 10rem; 
+    margin-top: -90px;
+}
+.alinhar p{
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+ margin-left: 60rem;
+}
+
+.banner h2{
+    color: rgb(255, 255, 255);
+    margin-left:40rem;
+}
+.tema{
+    color: aliceblue;
+    margin-left: 30rem;
+}
+.data{
+    color: aliceblue;
+    margin-left: 10rem;
+    font-size: 15rem;
+}
+.img{
+    background-image: url(./tech\ conferencia4.jpg);
+    width: 50rem;
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -6.5rem;
+}
+.evento{
+    
+    margin-top: 5rem;
+    margin-left: 1rem;
+}
+.evento h1{
+    background: #008cdd;
+   
+    color: aliceblue;
+    width: 100.7%;
+    height: 10vh;
+    margin-left: -1rem;
+   padding-left: 8rem;
+   padding-top: 1rem;
+    font-size: 4rem;
+   
+   
+}
+.tema1{
+    font-size: 3rem;
+    margin-left: 51.5rem;
+ margin-top: 5rem;
+}
+.p1{
+    font-size: 1.5rem;
+    margin-left: 52rem;
+    margin-top: -22rem;
+    line-height: 1.5;
+   
+}
+.tema2{
+    font-size: 3rem;
+        margin-left: 51.5rem;
+    margin-top: 1.5rem;
+}
+.p2{
+    font-size: 1.5rem;
+        margin-left: 52rem;
+        line-height: 1.5;
+        margin-top: 1.5rem;
+}
+.paragrafo2{
+    margin-top: 4rem;
+}
+.img2{
+    background-image: url(./tech\ conferencia5.jpg);
+    width: 50rem;
+        height: 35rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 80rem;
+        margin-top: -3.5rem;
+}
+.paragrafo2 h1{
+    font-size: 4rem;
+    margin-left: 1rem;
+}
+
+.lista{
+    font-size: 1.5rem;
+    width: 77rem;
+    line-height: 1.5;
+    margin-top: -29rem;
+   margin-left: 1rem;
+}
+.participante{
+    margin-top: 2rem;
+}
+.participante h1{
+    font-size: 4rem;
+        margin-left: 1rem;
+        
+}
+.paragrafo3{
+font-size: 1.5rem;
+    margin-top: 2rem;
+    line-height: 1.5;
+}
+.paragrafo3 p{
+    margin-left: 1rem;
+}
+.paragrafo4 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    line-height: 1.5;
+}
+.paragrafo4 h1{
+    font-size: 4rem;
+        margin-left: 1rem;
+}
+.paragrafo4 p{
+    margin-left: 1rem;
+    width: 98%;
+}
+.frase{
+    font-size: 2rem;
+margin-top: 6rem;
+    margin-left: 10rem;
+    
+}
+#contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 5rem;
+    padding: 3rem;
+}
+#contato h1{
+    font-size: 3rem;
+}
+#contato h3{
+    font-size: 2rem;
+}
+
+
+
+@media (max-width:768px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .menu{
+        flex-direction: column;
+    }
+    .banner{
+        height: 30vh;
+    }
+
+} */
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    
+    
+    
+}
+.cabeçalho{
+    background-image: url(./tech\ conferencia.jpg);
+    width: 100vw;
+     height: 100vh;
+      background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.navbar {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(3px);
+    width: 100vw;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center ;
+    position: fixed;
+    top: 0;
+    
+  font-size: 2rem;
+    
+}
+.menu{
+    display: flex;
+    
+    justify-content: center;
+    list-style: none;
+    gap: 6rem;
+    }
+    .menu a{
+        color: aliceblue;
+    }
+
+   .alinhar{
+        display: flex;           
+        justify-content: space-between;           
+        align-items: center;   
+        flex-direction: column;        
+         gap: 1rem;        
+                   
+        
+          
+   }
+   .tema{
+    font-size: 6rem;
+    margin-left: -5vw;
+    flex: 1;
+   
+   }
+   .conference{
+    font-size: 8rem;
+    flex: 1;
+    margin-left: -20vw;
+
+   }
+   .data{
+    font-size: 10rem;
+    flex: 1;
+    margin-left: -15vw;
+   }
+   .frase{
+    font-size: 1.5rem;
+    margin-top: 2vw;
+    margin-left: 50vw;
+   }
+
+   /*  */
+   .sobreOEvento{
+    background-color: #636363;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   }
+   .controler{
+    background-image: url(./tech\ conferencia6.jpg);
+    background-color: #008cdd;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh auto;
+    margin: 0;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+   }
+   .geral{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   gap: 30px;
+   }
+   
+   .imgApresentação{
+    flex: 1;
+    max-width: 30%;
+   }
+   .img2{
+    width: 30vw;
+    height: 37vh;
+   }
+   .evento{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   flex: 2;
+   max-width: 70%;
+   
+   }
+   /* sessão 1 */
+   .paragrafo2 {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       
+       gap: 6px;
+   }
+        .imgpalestra {
+            flex: 1;
+            max-width: 33%;
+        }
+    
+        .img3 {
+            width: 31vw;
+            height: 35vh;
+        }
+
+
+   .descrição{
+    display: flex;
+    
+    justify-content: center;    
+    flex-direction: column;
+    flex: 2;
+    max-width: 67%;
+    gap: 10px;
+ 
+   }
+   .participante{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-direction: column;
+   }
+.frase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 18rem;
+}
+#contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 10px;
+}
+#contato a{
+    color: #008cdd;
+}
+@media (max-width:430px){
+
+
+.menu{
+       display: flex;
+       flex-direction: column;
+       
+       gap: 1px;
+
+   }
+   .alinhar{
+
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       
+   }
+   .tema, .conference, .data{
+    font-size: 2rem;
+    margin-left: 0;
+   }
+   .frase{
+    font-size: 0.5rem;
+    margin-left: 0;
+   }
+   .controler{
+   padding: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   }
+   
+   
+ 
+   .geral{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+   }
+   .imgApresentação{
+  max-width: 95%;
+   }
+   .img2{
+width: 85vw;
+height: auto;
+   }
+   .evento{
+    max-width: 95%;
+  width: 80vw;
+    font-size: 1rem;
+   }
+
+   .paragrafo2{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+   }
+   .imgpalestra{
+    max-width: 90%;
+   }
+   .img3{
+    width: 80vw;
+    height: auto;
+   }
+   .descrição{
+    max-width: 95%;
+    width: 80vw;
+   }
+   .participante{
+    max-width: 95%;
+    width: 85vw;
+    font-size: 1rem;
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+   
+   
+   }
+   #contato{
+    max-width: 95%;
+    width: 80vw;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: end;
+   }
+   
+   }
+@media(max-width: 768px){
+.menu{
+    
+    font-size: 1.5rem;
+    gap: 25px;
+}
+.tema, .data, .conference{
+    font-size: 5rem;
+    margin-left: 0;
+}
+.frase{
+    margin-left: 0;
+    font-size: 1.2rem;
+}
+.controler {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.geral {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgApresentação {
+    max-width: 98%;
+}
+
+.img2 {
+    width: 86vw;
+    height: auto;
+}
+
+.evento {
+    max-width: 98%;
+
+}
+
+.paragrafo2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.imgpalestra {
+    max-width: 98%;
+    margin: 1rem;
+}
+
+.img3 {
+    width: 88vw;
+    height: auto;
+}
+
+.descrição {
+    max-width: 98%;
+}
+
+
+}
+  
+
+    
+
+
+
+
+
+
+
+
+
+/* index contato */
+
+.corpo{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    background-image: url(./tech\ conferencia7.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+   
+   
+}
+.cadastro{
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+    padding: 8rem;
+    
+}
+
+.caixa{
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(3px);
+    width: 50%;
+    display: flex;
+    padding: 3rem;
+    
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.workshops{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+input[type=text], input[type="email"], input[type="tel"]{
+    height: 4vh;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #2a98ac;
+    font-size: 10px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 150px;
+    height: 5vh;
+    border-radius: 2px;
+    background-color: #008cdd;
+    color: aliceblue;
+    
+}
+
+@media(max-width:430px) {
+    .corpo {
+        font-size: 20px;
+       height: 100vh;
+       padding:2px;
+    }
+
+    .cadastro {
+        padding: 1.5rem;
+        margin:4rem;
+    }
+
+    .caixa {
+        width: 17rem;
+        gap: 20px;
+        padding: 1.5rem;
+        
+    }
+   h2{
+        font-size: 1.4rem;
+    }
+        input[type=text],
+        input[type="email"],
+        input[type="tel"] {
+       
+       height: 3vh; }
+
+       button{
+        height: 4vh;
+       }
+    }
+       @media(max-width:768px){
+      
+        .caixa{
+           width: 20rem;
+        }
+        
+       }
